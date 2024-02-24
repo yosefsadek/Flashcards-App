@@ -1,0 +1,17 @@
+<!-- 
+    Total Pages:
+    Home, Add Q, Manage Q, Random Q, Answer
+
+    => Start Page
+    (btn-about -> About Page)
+
+    => Add new Question Page
+
+    => Show & Control Questions Page
+
+    => Question Page
+    (Another Question)(Home)(Check Answer)
+
+    => Answer Page
+    (Show Question)(Home Page)(Another Question)
+-->
