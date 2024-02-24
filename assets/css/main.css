@@ -1,0 +1,142 @@
+.hidden{
+    display: none !important;
+}
+
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: #06283D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+.container{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    padding: 28px 32px;
+    background: #fff;
+    /* margin-top: ; */
+    margin: auto;
+    border-radius: 18px;
+}
+
+/* Pages */
+.home,.add_page, .answer, .question, .admin_page{
+    display: 'block';
+}
+
+/*  */
+
+.question h2, .random h2{
+    margin: 50px auto 30px auto;
+}
+.answer h2{
+    text-align: center;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+    height: 250px;
+    margin: 10px auto 20px auto;
+}
+.answer p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #232323;
+}
+.container .person{
+    /* display: none; */
+}
+
+/* Nav Area */
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin-bottom: 10px;
+}
+/* .nav-bar button{
+    cursor: pointer;
+    border: 2px solid #06283d61;
+    padding: 9px 18px;
+    font-size: 18px;
+    border-radius: 18px;
+    color: #06283d;
+    background: none;
+} */
+.btn{
+    cursor: pointer;
+    border: 2px solid #06283d61;
+    padding: 9px 18px;
+    font-size: 18px;
+    border-radius: 18px;
+    color: #06283d;
+    background: none;
+}
+
+.nav-bar .left{
+    /* background: #ffb32d; */
+    background: #9fa043;
+}
+.nav-bar .right{
+    background: #43A047;
+}
+
+/*  */
+input{
+    margin: 5px auto;
+}
+textarea, input{
+    border: 2px solid #c6c1c1;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.admin_page button{
+    /* cursor: pointer;
+    padding: 7px;
+    border-radius: 6px;
+    width: 22px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background: no-repeat;
+    color: darkred;
+    background: #f0f0f0;*/
+    padding-top: 5px; 
+}
+.group{
+    overflow-y: scroll;
+    max-height: 450px;
+    width: 117%;
+    margin-left: -25px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    background: #dedede;
+    margin: 5px auto;
+}
+
+/* 
+
+ */
