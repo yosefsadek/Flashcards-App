@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="dot.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <br>
+            <h1>Flashcards Web App</h1>
+            <br>
+            <img src="/img/welcome-1.jpg" alt="">
+            <div class="nav-bar">
+                <button style="background: none;" class="left fa-solid fa-question" id="about" title="about"></button> <!-- pick up another question -->
+                <button class="middle" id="random"><strong>Let's Go</strong></button>
+                <button style="background: none;" class="right fa-solid fa-person-military-rifle" id="admin_page"></button>
+            </div>
+        </div>
+        <div class="random hidden">
+            <h2>Random Question</h2>
+            <img src="https://miro.medium.com/v2/resize:fit:849/1*wPu57gUBD4AUCzoTROknSA.png">
+            <div class="nav-bar">
+                <button class="left fa-solid fa-dice-d6" id="random"></button> <!-- pick up another question -->
+                <button class="middle fa-solid fa-home" id="home"></button>
+                <button class="right fa-solid fa-eye" id="answer"></button>
+            </div>
+        </div>
+        <div class="answer hidden">
+            <h2>Definition of Accounting</h2>
+            <img src="https://miro.medium.com/v2/resize:fit:849/1*wPu57gUBD4AUCzoTROknSA.png" alt="">
+            <p>
+                Accounting is an information system that accountants use to communicate the information to the users
+            </p>
+            
+            <div class="nav-bar">
+                <button class="left fa-solid fa-angles-left" id="question"></button>
+                <button class="middle fa-solid fa-home" id="home"></button>
+                <button class="right fa-solid fa-shuffle" id="random"></button>
+            </div>
+        </div>
+        <div class="question hidden">
+            <h2>What is Accounting?</h2>
+            <img src="https://miro.medium.com/v2/resize:fit:849/1*wPu57gUBD4AUCzoTROknSA.png" alt="">
+            
+            <div class="nav-bar">
+                <button class="left fa-solid fa-dice-d6" id="random"></button> <!-- pick up another question -->
+                <button class="middle fa-solid fa-home" id="home"></button>
+                <button class="right fa-solid fa-eye" id="answer"></button>
+            </div>
+        </div>
+        
+        <div class="about hidden">
+            <h2>About</h2>
+            <br>
+            <strong>What is this?</strong>
+            <p>this app for studying</p>
+
+            
+            <div class="nav-bar">
+                <button class="middle fa-solid fa-home" id="home"></button>
+            </div>
+        </div>
+        <div class="add_page hidden">
+            <h1>Add New Question</h1>
+            <textarea name="" id="" cols="30" rows="10" placeholder="what is the question?"></textarea>
+            <input type="text" id="" placeholder="Image URl (optional): https://website/image.png">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter the answer of the question"></textarea>
+            
+            <div class="nav-bar">
+                <!-- 
+                    Total Pages:
+                    Home, Add Q, Manage Q, Random Q, Answer
+
+                    => Start Page
+                    (btn-about -> About Page)
+
+                    => Add new Question Page
+
+                    => Show & Control Questions Page
+
+                    => Question Page
+                    (Another Question)(Home)(Check Answer)
+
+                    => Answer Page
+                    (Show Question)(Home Page)(Another Question)
+                -->
+                <button class="left fa-solid fa-question hidden" id="about"></button> <!-- pick up another question -->
+                <button class="middle fa-solid fa-home" id="home"></button>
+                <button class="right hidden" id="check_answer">Save Question</button>
+
+            </div>
+        </div>
+        <div class="admin_page hidden">
+            <h1>admin_page</h1>
+            <br>
+            <div class="group">
+                <div class="item">
+                    <button id="asf" class="fa-solid fa-eye"></button>
+                    <button id="asf" class="fa-solid fa-trash"></button>
+                    <span>What is Accounting? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et architecto eos vel tempore optio porro animi nesciunt officia consequatur placeat deserunt, eligendi libero, incidunt, perferendis accusantium inventore unde. Praesentium?</span>
+                </div>
+            </div>
+            <div class="nav-bar">
+                <button class="middle fa-solid fa-home" id="home"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/routing.js"></script>
+    <script src="assets/js/processor.js"></script>
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<!-- https://quizizz.com/?lng=en -->
