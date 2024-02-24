@@ -1,10 +1,12 @@
 # Flashcards App
 
-## 🤔About The App
+## ⛰️📷 ScreenShots
 
-![alt text](/screenshots/home.PNG)
+![Home Page Image](/screenshots/home.PNG)
 
-### What is this?
+![About Page Image](/screenshots/about.PNG)
+
+### 🤔 What is this?
 
 It's a Flashcards App, you can add questions and their answer and am image for illustration.
 
